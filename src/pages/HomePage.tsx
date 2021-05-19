@@ -24,7 +24,7 @@
 
 const HomeComponent = () => {
     return (
-      <div className='Home'>
+      <div className='Home text-center'>
        <div>This is my Home Page!!</div>
       </div>
     );
