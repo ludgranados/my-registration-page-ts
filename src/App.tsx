@@ -1,14 +1,15 @@
-// IMPORTS
-import HomeComponent from "./pages/HomePage"
+// Imports 
+import { BrowserRouter as Router } from 'react-router-dom';
+import AppRoutes from './routers/AppRoutes';
 
 
 const App = () => {
   return (
-    <div>
-      <div>
-        <HomeComponent />
-      </div>
-    </div>
+    <Router>
+      
+        <AppRoutes />
+      
+    </Router>
   );
 };
 
