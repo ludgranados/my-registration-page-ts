@@ -1,7 +1,9 @@
+//Imports from dependencies
 import { Switch, Route } from 'react-router-dom';
 
-// Components
+// Imports from Components
 import Navbar from '../components/Navbar';
+import HomeComponent from '../pages/HomePage';
 
 const AppRoutes = () => {
   return (
@@ -9,7 +11,7 @@ const AppRoutes = () => {
       <Navbar />
       <div className='container-fluid'>
         <Switch>
-          <Route path='/' />
+          <Route path='/' component={HomeComponent} />
         </Switch>
       </div>
     </div>
