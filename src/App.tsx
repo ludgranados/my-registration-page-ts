@@ -1,5 +1,7 @@
-// Imports 
+// Imports from dependencies
 import { BrowserRouter as Router } from 'react-router-dom';
+
+// Imports from components
 import AppRoutes from './routers/AppRoutes';
 
 
