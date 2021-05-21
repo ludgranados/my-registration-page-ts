@@ -1,4 +1,4 @@
-// Components
+// Import from Components
 import RegistrationForm from '../components/RegistrationForm';
 
 const HomeComponent = () => {
